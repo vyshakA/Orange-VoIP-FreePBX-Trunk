@@ -47,7 +47,7 @@ Przygotowałem dial patterns dla (chyba) wszystkich numerów publicznych w Polsc
 
 ---
 
-### Contact
+### Kontakt
 Jeśli macie jakieś pytania proszę kierować je na adres mailowy: [kubab945@gmail.com](mailto:kubab945@gmail.com).
 
 Lub otworzyć [GitHub issue](https://github.com/buba0/Orange-VoIP-FreePBX-Trunk/issues).
